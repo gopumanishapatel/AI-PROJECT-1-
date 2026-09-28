@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown("# :blue[Welcome to my ChatBot app!!!]",)
 with st.sidebar:
     st.header(":red[Chat Settings]")
-    if st.button("clear Chat"):
+    if st.button("clear Chat🗑️"):
         st.session_state.messages = []
         st.success("Chat cleared")
     personalities = {
