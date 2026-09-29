@@ -6,6 +6,7 @@ msgs = [
     }
 ]
 while True:
+
     question =input("You:")
     if question.lower() == "exit":
         break
